@@ -1,6 +1,5 @@
-What is Streamchaser
 
-The stack
+<img src="static/light-logo.svg">
 
 ---
 
