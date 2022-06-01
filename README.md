@@ -38,11 +38,13 @@ Backend:
 ---
 
 
+
 # Architecture
 
+- Microservices
 - Docker
 
-- Indsæt opdateret billede
+<img src="static/streamchaser-tech-stack.png" height="400px">
 
 ---
 
