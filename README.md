@@ -23,7 +23,7 @@ Frontend:
 - DaisyUI
 
 Backend:
-- Go-Gonic
+- Gin-Gonic
 - FastAPI
 
 ---
@@ -51,7 +51,7 @@ Backend:
 # Backend
 
 - FastAPI
-- Go-Gonic
+- Gin-Gonic
 
 ---
 
