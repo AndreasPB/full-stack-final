@@ -1,17 +1,17 @@
 
-<img src="static/light-logo.svg">
+<img src="static/light-logo.png" height="500px">
 
 ---
 
 # Google Analytics
 
-<img src="static/google-analytics.png">
+<img src="static/google-analytics.png" height="500px">
 
 ---
 
 # Grafana
 
-<img src="static/grafana.png">
+<img src="static/grafana.png" height="500px">
 
 ---
 
@@ -73,7 +73,7 @@ Go:
 
 # Media updater
 
-<img src="static/offloaded-job.png">
+<img src="static/offloaded-job.png" height="500px">
 
 ---
 
@@ -86,7 +86,10 @@ Go:
 - E2E
 - Python test
 - Pre-commit
-<img src="static/github-ci-cd.png">
+
+---
+
+<img src="static/github-ci-cd.png" height="600px">
 
 ---
 
