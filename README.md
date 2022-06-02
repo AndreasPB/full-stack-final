@@ -3,16 +3,9 @@
 
 ---
 
-# Frameworks
-
-Frontend:
-- Svelte/Kit
-- TailwindCSS
-- DaisyUI
-
-Backend:
-- Gin-Gonic(Go)
-- FastAPI(Python)
+<video controls height=650px>
+  <source src="static/streamchaser.webm" type="video/webm">
+</video>
 
 ---
 
@@ -27,14 +20,21 @@ Backend:
 
 # Frontend
 
-- Routes
-- Components
-- Styling(Tailwind/DaisyUI)
-- Mobile first
+- Svelte + Kit
+- TailwindCSS
+- DaisyUI
 
 ---
 
-# SvelteKit
+## Svelte
+
+Declarative workflow
+
+<img src="static/awaitflow.png" height="400px">
+
+---
+
+## SvelteKit
 
 Folder-based routing
 
@@ -42,23 +42,15 @@ Folder-based routing
 
 ---
 
-## Code-splitting
+### Code-splitting
 
 <img src="static/layout.png" height="500px">
 
 ---
 
-## Adapters
+### Adapters
 
 <img src="static/adapter.png" height="500px">
-
----
-
-# Svelte
-
-Declarative workflow
-
-<img src="static/awaitflow.png" height="400px">
 
 ---
 
@@ -70,7 +62,7 @@ Declarative workflow
 
 ---
 
-# Optimization
+## Optimization
 
 - Fast prototyping with Python
 - Move frequent TMDB calls into Redis
@@ -78,13 +70,13 @@ Declarative workflow
 
 ---
 
-# FastAPI
+## FastAPI
 
 <img src="static/get-movie.png" height="400px">
 
 ---
 
-# Typer
+## Typer
 
 Our projects CLI
 
@@ -96,7 +88,7 @@ Our projects CLI
 
 ---
 
-# Internal
+## Internal
 
 <img src="static/using-internal.png">
 
