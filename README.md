@@ -3,17 +3,6 @@
 
 ---
 
-# Google Analytics
-
-<img src="static/google-analytics.png" height="500px">
-
----
-
-# Grafana
-
-<img src="static/grafana.png" height="500px">
-
----
 
 # Frameworks
 
@@ -28,58 +17,76 @@ Backend:
 
 ---
 
-# Frontend
-
-- Routes
-- Components
-- Styling(Tailwind/DaisyUI)
-- Mobile first
-
----
-
-
 
 # Architecture
 
-- Microservices
+- Multitier Architecture
 - Docker
 
-<img src="static/streamchaser-tech-stack.png" height="400px">
+<img src="static/architecture" height="400px">
 
 ---
 
-# Backend
 
-- FastAPI
-- Gin-Gonic
+# Frontend
 
----
-
-# Optimization
-
-- Python -> Go
-- Go concurrency model
+- Svelte
+- Routing
+- Components
+- Styling (Tailwind/DaisyUI)
 
 ---
 
-Python:
-- CLI
-- Prototyping/MVPs
+# Svelte
 
-Go:
-- Re-writes
-- Offloading jobs from Python
-- Talks with the client
+- Javascript library/compiler
+
+<img src="https://miro.medium.com/max/1400/1*_7upPeJparkaxnpBhOkZig.png" height="350px">
 
 ---
 
-# Media updater
-
-<img src="static/offloaded-job.png" height="500px">
+<video controls height=550px>
+  <source src="static/sveltereactvue.mp4" type="video/mp4">
+</video>
 
 ---
 
-# TMDB
+# Components
+<img src="static/components.png" height="300px">
+<img src="static/layout.png" height="300px">
+
+---
+
+<img src="static/component.png" height="500px">
+
+---
+
+# Routing
+- Filesystem-based routing through Sveltekit
+- Dynamic parameters
+
+<div style="display: flex">
+    <img src="static/route.png" height="300px">
+    <img src="static/route3.png" height="300px">
+</div>
+<img src="static/route2.png" height="50px">
+
+---
+
+# Styling
+- Tailwindcss - CSS framework
+  - Utility classes
+  - Built-in media queries
+  - Pseudo classes
+  
+<img src="static/daisyuiandtailwind.png">
+
+- DaisyUI - Component framework
+
+<img src="static/daisyui.png">
+
+
+- Mobile-first approach
 
 ---
 
@@ -88,15 +95,28 @@ Go:
 - E2E
 - Python test
 - Pre-commit
+- CodeFactor
+- Vercel
 
 ---
 
-<img src="static/github-ci-cd.png" height="600px">
+<img src="static/github-ci-cd.png" height="500px">
 
 ---
 
-# Vercel/Serverless
+# E2E
 
-- Adapters
+![img.png](static/img.png)
 
 ---
+
+# Deployment
+
+<img src="static/vercel.png" height="400px">
+
+---
+
+# Security
+
+- CORS
+- Authorization
