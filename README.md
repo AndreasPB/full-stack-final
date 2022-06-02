@@ -9,7 +9,7 @@
 
 ---
 
-# Architecture
+## Architecture
 
 - Microservices
 - Docker
@@ -62,11 +62,15 @@ Folder-based routing
 
 ---
 
-## Optimization
+## Current workflow
 
-- Fast prototyping with Python
-- Move frequent TMDB calls into Redis
-- Offload heavy jobs to Go
+Python
+- Version 1.0 of new features
+- Interfacing with other services
+
+Go
+- Performant reimplementations
+- New service API
 
 ---
 
@@ -76,15 +80,15 @@ Folder-based routing
 
 ---
 
+<img src="static/offloaded-job.png" height="600px">
+
+---
+
 ## Typer
 
 Our projects CLI
 
 <img src="static/cli.png" height="400px">
-
----
-
-<img src="static/offloaded-job.png" height="500px">
 
 ---
 
@@ -108,20 +112,22 @@ Our projects CLI
 
 ---
 
-# Vercel
+## Vercel
 
 <img src="static/vercel-extend.png" height="500px">
 
 ---
 
-# Google Analytics
+## Google Analytics
 
 <img src="static/google-analytics.png" height="500px">
 
 ---
 
-# Grafana
+## Grafana
 
-<img src="static/grafana.png" height="500px">
+node_exporter and cadvisor through Prometheus
+
+<img src="static/grafana.png" height="475px">
 
 ---
