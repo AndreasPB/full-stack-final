@@ -2,19 +2,17 @@
 <img src="static/light-logo.png" height="500px">
 
 ---
-
-# Google Analytics
-
-<img src="static/google-analytics.png" height="500px">
+# Demo
 
 ---
+# Architecture
 
-# Grafana
+- Microservices
+- Docker
 
-<img src="static/grafana.png" height="500px">
+<img src="static/streamchaser-tech-stack.png" height="400px">
 
 ---
-
 # Frameworks
 
 Frontend:
@@ -26,6 +24,7 @@ Backend:
 - Gin-Gonic
 - FastAPI
 
+
 ---
 
 # Frontend
@@ -35,23 +34,10 @@ Backend:
 - Styling(Tailwind/DaisyUI)
 - Mobile first
 
----
-
-
-
-# Architecture
-
-- Microservices
-- Docker
-
-<img src="static/streamchaser-tech-stack.png" height="400px">
 
 ---
-
-# Backend
-
-- FastAPI
-- Gin-Gonic
+# Grafana 
+<img src="static/grafana.png" height="500px">
 
 ---
 
@@ -79,10 +65,6 @@ Go:
 
 ---
 
-# TMDB
-
----
-
 # CI/CD
 
 - E2E
@@ -99,4 +81,3 @@ Go:
 
 - Adapters
 
----
