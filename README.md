@@ -70,11 +70,11 @@ Declarative workflow
 
 ---
 
-# Typer
+# Optimization
 
-Our projects CLI
-
-<img src="static/cli.png" height="400px">
+- Fast prototyping with Python
+- Move frequent TMDB calls into Redis
+- Offload heavy jobs to Go
 
 ---
 
@@ -84,10 +84,11 @@ Our projects CLI
 
 ---
 
-# Optimization
+# Typer
 
-- Move frequent TMDB calls into Redis
-- Offload heavy jobs to Go
+Our projects CLI
+
+<img src="static/cli.png" height="400px">
 
 ---
 
@@ -101,14 +102,10 @@ Our projects CLI
 
 ---
 
-# TMDB
-
----
-
 # CI/CD
 
-- E2E
-- Python test
+- E2E - Playwright
+- Pytest
 - Pre-commit
 - CodeFactor
 - Vercel
@@ -124,7 +121,6 @@ Our projects CLI
 <img src="static/vercel-extend.png" height="500px">
 
 ---
-
 
 # Google Analytics
 
