@@ -3,43 +3,13 @@
 
 ---
 
-# Google Analytics
-
-<img src="static/google-analytics.png" height="500px">
-
----
-
-# Grafana
-
-<img src="static/grafana.png" height="500px">
+<video controls height=650px>
+  <source src="static/streamchaser.webm" type="video/webm">
+</video>
 
 ---
 
-# Frameworks
-
-Frontend:
-- Svelte/Kit
-- Tailwind
-- DaisyUI
-
-Backend:
-- Gin-Gonic
-- FastAPI
-
----
-
-# Frontend
-
-- Routes
-- Components
-- Styling(Tailwind/DaisyUI)
-- Mobile first
-
----
-
-
-
-# Architecture
+## Architecture
 
 - Microservices
 - Docker
@@ -48,46 +18,93 @@ Backend:
 
 ---
 
+# Frontend
+
+- Svelte + Kit
+- TailwindCSS
+- DaisyUI
+
+---
+
+## Svelte
+
+Declarative workflow
+
+<img src="static/awaitflow.png" height="400px">
+
+---
+
+## SvelteKit
+
+Folder-based routing
+
+<img src="static/routes.png" height="400px">
+
+---
+
+### Code-splitting
+
+<img src="static/layout.png" height="500px">
+
+---
+
+### Adapters
+
+<img src="static/adapter.png" height="500px">
+
+---
+
 # Backend
 
+- Typer
 - FastAPI
 - Gin-Gonic
 
 ---
 
-# Optimization
+## Current workflow
 
-- Python -> Go
-- Go concurrency model
+Python
+- Version 1.0 of new features
+- Interfacing with other services
 
----
-
-Python:
-- CLI
-- Prototyping/MVPs
-
-Go:
-- Re-writes
-- Offloading jobs from Python
-- Talks with the client
+Go
+- Performant reimplementations
+- New service API
 
 ---
 
-# Media updater
+## FastAPI
 
-<img src="static/offloaded-job.png" height="500px">
+<img src="static/get-movie.png" height="400px">
 
 ---
 
-# TMDB
+<img src="static/offloaded-job.png" height="600px">
+
+---
+
+## Typer
+
+Our projects CLI
+
+<img src="static/cli.png" height="400px">
+
+---
+
+## Internal
+
+<img src="static/using-internal.png">
 
 ---
 
 # CI/CD
 
-- E2E
-- Python test
+- E2E - Playwright
+- Pytest
 - Pre-commit
+- CodeFactor
+- Vercel
 
 ---
 
@@ -95,8 +112,22 @@ Go:
 
 ---
 
-# Vercel/Serverless
+## Vercel
 
-- Adapters
+<img src="static/vercel-extend.png" height="500px">
+
+---
+
+## Google Analytics
+
+<img src="static/google-analytics.png" height="500px">
+
+---
+
+## Grafana
+
+node_exporter and cadvisor through Prometheus
+
+<img src="static/grafana.png" height="475px">
 
 ---
